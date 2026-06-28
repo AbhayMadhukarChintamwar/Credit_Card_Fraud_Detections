@@ -91,12 +91,8 @@ scaler = pickle.load(open("scaler.pkl","rb"))
 # Sidebar
 # ----------------------------
 
-st.sidebar.image(
-    "https://img.icons8.com/color/240/bank-card-back-side.png",
-    width=50
-)
 
-st.sidebar.title("Project")
+st.sidebar.title("Project Details")
 
 st.sidebar.info("""
 ### Credit Card Fraud Detection
