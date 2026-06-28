@@ -136,7 +136,7 @@ with c1:
     st.metric("Features","30")
 
 with c2:
-    st.metric("Algorithm","Logistic Regression")
+    st.metric("Algorithms","Logistic Regression")
 
 with c3:
     st.metric("Prediction","Real Time")
