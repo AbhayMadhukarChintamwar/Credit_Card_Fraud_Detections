@@ -93,7 +93,7 @@ scaler = pickle.load(open("scaler.pkl","rb"))
 
 st.sidebar.image(
     "https://img.icons8.com/color/240/bank-card-back-side.png",
-    width=150
+    width=50
 )
 
 st.sidebar.title("Project")
